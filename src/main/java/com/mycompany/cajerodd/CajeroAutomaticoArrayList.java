@@ -32,7 +32,7 @@ public class CajeroAutomaticoArrayList {
                 System.out.println("2. Retirar efectivo");
                 System.out.println("3. Ver historial de movimientos");
                 System.out.println("4. Salir");
-                System.out.print("Seleccione una opción: ");
+                System.out.print("Seleccione una opcion: ");
                 opcion = dd.nextInt();
                 
                 switch (opcion) {
@@ -73,7 +73,7 @@ public class CajeroAutomaticoArrayList {
                         break;
                         
                     default:
-                        System.out.println("Opción no válida. Intente de nuevo.");
+                        System.out.println("Opcion no válida. Intente de nuevo.");
                         break;
                 }
             }
